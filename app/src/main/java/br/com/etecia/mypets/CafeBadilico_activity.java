@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class CafeBadilico_activity extends AppCompatActivity {
 
     CardView idCardView;
@@ -16,6 +18,7 @@ public class CafeBadilico_activity extends AppCompatActivity {
     Button Botao3;
     Button Botao4;
     Button Reserva;
+    FloatingActionButton idFABCafe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +80,16 @@ public class CafeBadilico_activity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),
                         "reservou parabéns!",
+                        Toast.LENGTH_LONG).show();
+            }
+        });
+        idFABCafe = findViewById(R.id.idFABCafe);
+
+        idFABCafe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),
+                        "Cliquei no barato!",
                         Toast.LENGTH_LONG).show();
             }
         });
