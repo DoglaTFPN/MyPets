@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".CafeBadilico_activity">
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/idFABCafe"
+        android:layout_gravity="bottom|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_baseline_add"
+        />
+
     <androidx.cardview.widget.CardView
         android:id="@+id/idCardView"
         android:layout_width="350dp"

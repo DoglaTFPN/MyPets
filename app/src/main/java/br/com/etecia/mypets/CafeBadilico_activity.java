@@ -6,6 +6,7 @@ import androidx.cardview.widget.CardView;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class CafeBadilico_activity extends AppCompatActivity {
 
@@ -34,7 +35,9 @@ public class CafeBadilico_activity extends AppCompatActivity {
         Botao1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Toast.makeText(getApplicationContext(),
+                "reservou 5:30PM paizão",
+                        Toast.LENGTH_LONG).show();
             }
         });
         Botao2 = findViewById(R.id.Botao2);
@@ -42,7 +45,9 @@ public class CafeBadilico_activity extends AppCompatActivity {
         Botao2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Toast.makeText(getApplicationContext(),
+                        "reservou 7:30PM paizão",
+                        Toast.LENGTH_LONG).show();
             }
         });
         Botao3 = findViewById(R.id.Botao3);
@@ -50,7 +55,9 @@ public class CafeBadilico_activity extends AppCompatActivity {
         Botao3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Toast.makeText(getApplicationContext(),
+                        "reservou 8:00PM paizão",
+                        Toast.LENGTH_LONG).show();
             }
         });
         Botao4 = findViewById(R.id.Botao4);
@@ -58,7 +65,9 @@ public class CafeBadilico_activity extends AppCompatActivity {
         Botao4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Toast.makeText(getApplicationContext(),
+                        "reservou 9:00PM paizão",
+                        Toast.LENGTH_LONG).show();
             }
         });
         Reserva = findViewById(R.id.Reserva);
@@ -66,7 +75,9 @@ public class CafeBadilico_activity extends AppCompatActivity {
         Reserva.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Toast.makeText(getApplicationContext(),
+                        "reservou parabéns!",
+                        Toast.LENGTH_LONG).show();
             }
         });
     }}
