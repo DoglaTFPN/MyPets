@@ -7,6 +7,7 @@
     tools:context=".CafeBadilico_activity">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/idCardView"
         android:layout_width="350dp"
         android:layout_height="500dp">
 
@@ -73,15 +74,18 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/Botao1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5sp"
                     android:layout_marginRight="5sp"
                     android:layout_weight="1"
                     android:text="5:30PM"
-                    android:textSize="11sp" />
+                    android:textSize="11sp"
+                    />
 
                 <Button
+                    android:id="@+id/Botao2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5sp"
@@ -91,6 +95,7 @@
                     android:textSize="11sp" />
 
                 <Button
+                    android:id="@+id/Botao3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5sp"
@@ -100,6 +105,7 @@
                     android:textSize="11sp" />
 
                 <Button
+                    android:id="@+id/Botao4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5sp"
@@ -112,6 +118,7 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/Reserva"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
