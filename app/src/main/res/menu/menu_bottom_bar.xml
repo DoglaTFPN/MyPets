@@ -9,4 +9,13 @@
         android:contentDescription="Buscar Email"
         android:icon="@drawable/ic_baseline_email"
         android:title="Email" />
+    <item
+        android:contentDescription="buscar"
+        android:icon="@drawable/ic_baseline_"
+        android:title="Buscar" />
+
+    <item
+        android:contentDescription="Buscar Email"
+        android:icon="@drawable/ic_baseline_email"
+        android:title="Email" />
 </menu>
